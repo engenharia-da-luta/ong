@@ -1,0 +1,117 @@
+@use "../utils" as utils;
+.give-card {
+  width: 200px;
+  height: 220px;
+  background-color: utils.$color-blue;
+  border-radius: 20px;
+  padding: 20px;
+  border: 3px solid utils.$color-blue;
+
+  @include utils.on-tablet {
+    width: 150px;
+  }
+
+  &__title {
+    font-family: utils.$fonte-padrao;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-block: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.529);
+  }
+
+  &__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    margin-top: 6px;
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+    line-height: 100%;
+    border-radius: 3px;
+    max-width: 100px;
+
+    &--transform {
+      font-size: 36px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+  }
+
+  &__description {
+    position: relative;
+    background-color: white;
+    max-width: 180px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  &__legend {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    padding: 2px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    width: 100px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  &__list {
+    margin-block: 0;
+    padding-block: 10px;
+    padding-inline-start: 20px;
+  }
+
+  &__item {
+    font-size: 9px;
+    list-style-type: "⚫";
+    margin-top: 5px;
+  }
+
+  &__buy-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 8px;
+    width: 100%;
+  }
+
+  &__stock {
+    font-size: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.529);
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    text-align: start;
+  }
+
+  &__image {
+    height: 80px;
+    width: 80px;
+    margin-inline: auto;
+  }
+
+  &__button {
+    border: 1px solid white;
+    width: 130px;
+    height: 30px;
+    margin: 0;
+
+    &:hover {
+      border: none;
+    }
+  }
+}

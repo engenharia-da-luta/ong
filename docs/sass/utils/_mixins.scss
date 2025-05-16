@@ -1,0 +1,51 @@
+@use "../utils/screen-mixins" as screens;
+@use "../utils/variables" as vars;
+@mixin hover($_property, $_toValue) {
+  & {
+    transition: #{$_property} vars.$transition-page;
+  }
+  &:hover {
+    #{$_property}: $_toValue;
+  }
+}
+
+@mixin content-padding-inline() {
+  & {
+    padding-inline: 20px;
+  }
+
+  @include screens.on-tablet {
+    padding-inline: 41px;
+  }
+
+  @include screens.on-small-desktop {
+    padding-inline: 54px;
+  }
+
+  @include screens.on-desktop {
+    padding-inline: 120px;
+  }
+}
+
+@mixin button-style() {
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid vars.$cor3;
+  background-color: vars.$cor3;
+  color: vars.$cor0;
+
+  font-family: vars.$fonte-padrao;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+
+  @include hover(transform, scale(1.2));
+
+  @include screens.on-tablet {
+    width: 264px;
+  }
+}

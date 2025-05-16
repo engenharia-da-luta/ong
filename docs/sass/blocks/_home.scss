@@ -1,0 +1,177 @@
+@use "../utils" as utils;
+.home {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: none;
+  max-width: 850px;
+
+  &__title {
+    padding-top: 40px;
+  }
+
+  &__sub-title {
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  &__about-project {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 380px;
+    gap: 20px;
+
+    @include utils.on-tablet {
+      flex-direction: row;
+      align-items: start;
+      gap: 50px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__cash-flow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 3px utils.$cor1;
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: utils.$cor0;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: utils.$cor0;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__text {
+    width: 320px;
+    text-align: center;
+    padding-block: 10px;
+
+    @include utils.on-tablet {
+      width: 450px;
+    }
+  }
+
+  &__text-left {
+    text-align: start;
+    padding-left: 0;
+  }
+
+  &__text-top {
+    border: solid 1px utils.$cor1;
+    border-radius: 10px;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.466);
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.57);
+    color: utils.$cor0;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__cash {
+    padding: 0;
+  }
+
+  &__button {
+    margin: 0;
+  }
+
+  &__carrossel-contain {
+    height: 300px;
+    width: 100%;
+
+    @include utils.on-tablet {
+      border-radius: 30px;
+      height: 320px;
+    }
+
+    @include utils.on-small-desktop {
+      height: 430px;
+    }
+  }
+
+  &__carrossel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__carrossel {
+    overflow: hidden;
+    position: absolute;
+    top: 480px;
+    width: 100%;
+
+    @include utils.on-tablet {
+      position: relative;
+      top: 0;
+      max-width: 400px;
+      margin-left: 30px;
+    }
+  }
+
+  &__portal {
+    @include utils.on-tablet {
+      padding-left: 40px;
+    }
+  }
+
+  &__about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+  }
+
+  &__registration {
+    display: block;
+  }
+
+  &__registration-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  &__registration-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+    @include utils.on-tablet {
+      font-size: 16px;
+    }
+
+    @include utils.on-small-desktop {
+      font-size: 18px;
+    }
+  }
+
+  &__item {
+    color: white;
+    list-style-type: circle;
+    padding-block: 5px;
+  }
+}

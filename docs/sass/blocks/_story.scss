@@ -1,0 +1,110 @@
+@use "../utils" as utils;
+.story {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1000px;
+  &__cards-content {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    row-gap: 30px;
+
+    @include utils.on-tablet {
+      gap: 30px;
+      width: 100%;
+    }
+  }
+
+  &__text {
+    width: 90%;
+    max-width: 460px;
+    text-align: center;
+    margin-inline: auto;
+    margin-block: 10px;
+  }
+
+  &__card {
+    & {
+      background-color: black;
+      width: 110px;
+      height: 265px;
+      display: none;
+
+      @include utils.on-tablet {
+        width: 155px;
+      }
+    }
+
+    @include utils.hover(border, 3px solid utils.$cor1);
+    @include utils.hover(transform, scale(1.1));
+  }
+
+  &__card-title {
+    font-size: 20px;
+
+    @include utils.on-tablet {
+      font-size: 24px;
+    }
+  }
+
+  &__card--selected {
+    display: block;
+  }
+
+  &__card-description {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+  }
+
+  &__dropdown {
+    width: 200px;
+    margin: 0;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  &__dropdown-button {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    @include utils.hover(transform, scale(1));
+
+    @include utils.on-tablet {
+      margin-left: 80px;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+  }
+
+  &__item {
+    & {
+      cursor: pointer;
+      color: white;
+      padding-block: 14px;
+    }
+
+    @include utils.hover(color, utils.$cor3);
+  }
+
+  &__arrow-button {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+
+    @include utils.on-tablet {
+      font-size: 24px;
+      max-width: 360px;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@use "../utils" as utils;
+.give {
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  &__cards-content {
+    & {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 55px;
+      margin-bottom: 60px;
+    }
+
+    @include utils.on-tablet {
+      flex-direction: row;
+      gap: 40px;
+    }
+  }
+
+  &__card-scale-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 240px;
+
+    @include utils.on-tablet {
+      width: 200px;
+    }
+  }
+
+  &__card {
+    @include utils.hover(border, 3px solid utils.$cor1);
+    @include utils.hover(transform, scale(1.2));
+  }
+
+  &__story {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+
+    @include utils.on-tablet {
+      flex-direction: row;
+      align-items: start;
+    }
+  }
+
+  &__carrossel-contain {
+    height: 150px;
+    width: 100%;
+    border-radius: 30px;
+
+    @include utils.on-tablet {
+      height: 230px;
+    }
+  }
+
+  &__carrossel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__carrossel {
+    max-width: 150px;
+    overflow: hidden;
+
+    @include utils.on-tablet {
+      max-width: 250px;
+    }
+  }
+}

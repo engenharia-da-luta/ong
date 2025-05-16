@@ -1,0 +1,83 @@
+@use "../utils" as utils;
+.contact-us {
+  &__address {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 48px;
+    max-width: 362px;
+
+    @include utils.on-tablet {
+      gap: 48px;
+      margin-top: 56px;
+    }
+  }
+
+  &__contact-us__field {
+    margin: 0;
+  }
+
+  &__label {
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: utils.$fonte-padrao;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 3px;
+    text-align: left;
+    opacity: 50%;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    font-family: utils.$fonte-padrao;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    height: 32px;
+    line-height: 70%;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+
+    @include utils.hover(color, utils.$cor2);
+  }
+
+  &__social-link-content {
+    display: flex;
+    padding-top: 6px;
+    gap: 32px;
+  }
+
+  &__icon-social-hover {
+    display: none;
+
+    @include utils.hover(transform, scale(1.4));
+  }
+
+  &__facebook:hover &__icon-social-hover {
+    display: block;
+  }
+
+  &__facebook:hover &__icon-social {
+    display: none;
+  }
+
+  &__twitter:hover &__icon-social-hover {
+    display: block;
+  }
+
+  &__twitter:hover &__icon-social {
+    display: none;
+  }
+
+  &__instagram:hover &__icon-social-hover {
+    display: block;
+  }
+
+  &__instagram:hover &__icon-social {
+    display: none;
+  }
+}

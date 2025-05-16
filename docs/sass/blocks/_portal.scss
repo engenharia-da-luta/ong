@@ -1,0 +1,18 @@
+@use "../utils" as utils;
+.portal {
+  padding: 10px;
+  background-color: white;
+
+  &__title {
+    color: white;
+    background-color: #0e0000;
+    text-align: center;
+    border-radius: 25px;
+  }
+
+  &__button {
+    display: block;
+    margin-top: 20px;
+    margin-inline: auto;
+  }
+}

@@ -1,0 +1,27 @@
+@use "../utils" as utils;
+.body {
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: black;
+
+  &--image {
+    background-image: url(../imagens/bg-main.jpg);
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position-y: 250px;
+    background-position-x: center;
+    font-family: utils.$fonte-padrao;
+
+    @include utils.on-tablet {
+      background-size: 120%;
+      background-position-x: 50px;
+      background-position-y: 200px;
+    }
+
+    @include utils.on-small-desktop {
+      background-size: 70%;
+      background-position-x: 380px;
+      background-position-y: 300px;
+    }
+  }
+}

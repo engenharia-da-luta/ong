@@ -1,0 +1,9 @@
+@use "../utils" as utils;
+
+.slick-list {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  @include utils.on-tablet {
+    border-radius: 30px;
+  }
+}

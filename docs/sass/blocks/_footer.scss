@@ -1,0 +1,57 @@
+@use "../utils" as utils;
+.footer {
+  & {
+    position: relative;
+
+    padding-top: 72px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+    margin-inline: 10px;
+
+    background-color: utils.$cor4;
+    border: 1px solid #fff;
+    border-radius: 30px 30px 0 0;
+    color: utils.$cor0;
+  }
+
+  @include utils.content-padding-inline;
+
+  @include utils.on-tablet {
+    padding-top: 100px;
+  }
+
+  &__title {
+    & {
+      margin: 0;
+      font-family: utils.$fonte-padrao;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 130%;
+      text-align: left;
+    }
+
+    @include utils.on-tablet {
+      line-height: 150%;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    @include utils.on-tablet {
+      gap: 120px;
+    }
+
+    @include utils.on-small-desktop {
+      flex-direction: row;
+      align-items: start;
+      gap: 98px;
+    }
+
+    @include utils.on-desktop {
+      gap: 226px;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+@use "../utils" as utils;
+.nav {
+  padding-inline: 5px;
+  max-width: 180px;
+
+  @include utils.on-tablet {
+    display: flex;
+    width: 100%;
+    align-items: end;
+    justify-content: center;
+    max-width: 620px;
+    margin-inline: 20px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__icon-logo {
+    width: 120px;
+    height: 128px;
+    margin: 0;
+
+    padding: 0;
+
+    @include utils.on-tablet {
+      width: 100px;
+      height: 107px;
+      padding-inline: 15px;
+      margin-top: -55px;
+      padding-bottom: 5px;
+    }
+  }
+
+  &__icon-dropdown {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    @include utils.on-tablet {
+      display: none;
+    }
+  }
+
+  &__menu {
+    display: none;
+
+    @include utils.on-tablet {
+      display: block;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  &__item {
+    list-style: none;
+    margin-left: 5px;
+    max-width: 100px;
+
+    @include utils.on-tablet {
+      max-width: 100%;
+      padding-left: 15px;
+    }
+  }
+
+  &__link {
+    color: rgb(255, 255, 255);
+    font-family: utils.$fonte-padrao;
+    word-spacing: 0.5px;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.589);
+    text-decoration: none;
+    transition-duration: 0.5s;
+
+    &--is-active {
+      display: flex;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        width: 100%;
+        height: 3px;
+        border-radius: 4px;
+        background-color: utils.$cor3;
+      }
+    }
+  }
+
+  &__link:hover {
+    color: utils.$cor3;
+  }
+}

@@ -1,0 +1,69 @@
+@use "../utils" as utils;
+.send-us-a-message {
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 48px;
+    padding-bottom: 56px;
+    max-width: 280px;
+
+    @include utils.on-tablet {
+      gap: 48px;
+      margin-top: 56px;
+      padding-bottom: 80px;
+      width: 362px;
+    }
+
+    @include utils.on-small-desktop {
+      margin-top: 56px;
+      padding-bottom: 80px;
+      width: 370px;
+    }
+
+    @include utils.on-desktop {
+      margin-top: 56px;
+      padding-bottom: 80px;
+      width: 460px;
+    }
+  }
+
+  &__input {
+    padding: 0 0 17px;
+    background-color: utils.$cor4;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+
+    font-family: utils.$fonte-padrao;
+    font-size: 15px;
+    font-weight: 600;
+    height: 150%;
+    text-align: left;
+
+    &::placeholder {
+      opacity: 70%;
+    }
+
+    &--text-area {
+      resize: none;
+      overflow: hidden;
+    }
+
+    &:focus {
+      border-bottom: 2px solid utils.$cor1;
+    }
+  }
+
+  &__button {
+    @include utils.button-style;
+
+    & {
+      cursor: pointer;
+      background-color: utils.$cor1;
+      border: 1px solid utils.$cor1;
+      max-width: 342px;
+    }
+  }
+}

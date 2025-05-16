@@ -1,0 +1,189 @@
+@use "../utils" as utils;
+.main {
+  padding: 20px;
+  border-radius: 20px 20px 20px 20px;
+  min-width: 260px;
+  max-width: 600px;
+
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  &__title {
+    margin: 0;
+    color: white;
+    font-family: utils.$fonte-destaque;
+    font-size: 3em;
+    line-height: 1.1em;
+    letter-spacing: 1.1px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.589);
+    text-align: center;
+  }
+
+  &__sub-title {
+    margin: 0;
+    color: white;
+    font-family: utils.$fonte-destaque;
+    font-size: 2em;
+    line-height: 1.1em;
+    letter-spacing: 1.2px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.589);
+    text-align: center;
+    margin-block: 30px;
+  }
+
+  &__text-content {
+    margin-top: 46px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+
+    @include utils.on-tablet {
+      flex-direction: row;
+      margin-bottom: 120px;
+    }
+  }
+
+  &__content-text-button {
+    flex-direction: column;
+    margin: 0;
+
+    @include utils.on-small-desktop {
+      margin-top: 40px;
+    }
+  }
+
+  &__text {
+    font-family: utils.$fonte-padrao;
+    width: 220px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+
+    @include utils.on-tablet {
+      font-size: 24px;
+      width: 280px;
+    }
+
+    @include utils.on-small-desktop {
+      font-size: 28px;
+      width: 320px;
+      padding: 20px;
+    }
+  }
+
+  &__strong {
+    padding: 2px;
+    background-color: utils.$cor1;
+  }
+
+  &__img-content {
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.418);
+    background-color: #0e000018;
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: block;
+  }
+
+  &__img--vertical {
+    max-width: 900px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.418);
+  }
+
+  &__video-content {
+    background-color: utils.$cor4;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+
+    padding-bottom: 57%;
+
+    position: relative;
+  }
+
+  &__video {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+    width: 90%;
+    height: 90%;
+  }
+
+  &__button {
+    @include utils.button-style;
+
+    & {
+      background-color: utils.$color-blue;
+      border: none;
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    @include utils.hover(background-color, utils.$cor1);
+  }
+
+  &__arrow-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    font-family: utils.$fonte-padrao;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  &__content-arrow {
+    margin-block: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: utils.$color-blue;
+    transition: all 0.3s;
+  }
+
+  &__arrow {
+    height: 16px;
+    width: 16px;
+  }
+
+  &__arrow-button:hover &__content-arrow {
+    height: 48px;
+    width: 48px;
+    margin: 0;
+    margin-left: -8px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

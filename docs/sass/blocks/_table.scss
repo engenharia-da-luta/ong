@@ -1,0 +1,49 @@
+@use "../utils" as utils;
+.cash-flow {
+  width: 100%;
+  overflow: auto;
+
+  &__mes {
+    display: inline-block; /* Para que os botões fiquem lado a lado */
+    padding: 10px 20px; /* Espaçamento interno: 10px em cima e embaixo, 20px nas laterais */
+    margin-right: 10px; /* Espaçamento entre os botões */
+    font-size: 16px;
+    color: #333; /* Cor do texto padrão */
+    background-color: #f0f0f0; /* Cor de fundo padrão */
+    border: 1px solid #ccc; /* Borda sutil */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Indica que é clicável */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para cor de fundo e texto */
+
+    &:hover {
+      background-color: #ddd; /* Cor de fundo ao passar o mouse */
+      color: #000; /* Cor do texto ao passar o mouse */
+    }
+  }
+
+  &__table {
+    display: none;
+    width: 100%;
+    overflow: auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+    &--active {
+      display: table;
+    }
+  }
+
+  &__column {
+    border: 1px solid #ddd;
+    padding: 3px;
+    text-align: left;
+
+    &--head {
+      background-color: #f2f2f2;
+    }
+  }
+
+  &__saldo {
+    font-weight: bold;
+  }
+}

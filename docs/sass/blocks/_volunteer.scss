@@ -1,0 +1,8 @@
+@use "../utils" as utils;
+.volunteer {
+  &__text {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+  }
+}
