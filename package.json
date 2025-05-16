@@ -1,0 +1,25 @@
+{
+  "name": "ferrari-team",
+  "version": "1.0.0",
+  "description": "blog",
+  "scripts": {
+    "dev": "parcel docs/index.html",
+    "build": "parcel build docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rodrigoferrari94.github.io/ferrari-team/"
+  },
+  "keywords": [
+    "portal",
+    "transparencia",
+    "academia",
+    "projeto."
+  ],
+  "author": "Rodrigo Ferrari",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "sass": "^1.86.3"
+  }
+}
