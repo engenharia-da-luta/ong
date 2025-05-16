@@ -57,7 +57,7 @@ const cashTotal = cashSumPositive - cashSumNegative;
 const cashTotalFormatado = `R$${cashTotal.toFixed(2).replace(".", ",")}`;
 if (cashPositiveTotalElement) cashPositiveTotalElement.textContent = cashSumPositiveFormatado;
 if (cashNegativeTotalElement) cashNegativeTotalElement.textContent = cashSumNegativeFormatado;
-const cashTotalManual = "R$-15,61";
+const cashTotalManual = "R$29,39";
 cashTotalElements.forEach((element)=>{
     element.textContent = cashTotalManual;
     if (cashTotalManual.includes("-")) {
