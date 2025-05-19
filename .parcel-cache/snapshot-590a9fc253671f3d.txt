@@ -1,6 +1,10 @@
 4534
 86C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\resolver-default\src133918576676979669 1
+<<<<<<< HEAD
 49C:\Users\rodri\OneDrive\Documentos\sites\ong\docs133921303099832294 1
+=======
+49C:\Users\rodri\OneDrive\Documentos\sites\ong\docs133921290024449014 1
+>>>>>>> main
 89C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\semver\ranges\max-satisfying.js133894186342310443 0
 96C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\css-grid.js133894186357269908 0
 74C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\srcset\readme.md133894186339071846 0
@@ -35,7 +39,11 @@
 75C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\type-fest\license133894186335303058 0
 91C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\let.js133894186376667691 0
 55C:\Users\rodri\OneDrive\Documentos\sites\ong\.gitignore133891325243506041 0
+<<<<<<< HEAD
 49C:\Users\rodri\OneDrive\Documentos\sites\ong\dist133921303104501850 1
+=======
+49C:\Users\rodri\OneDrive\Documentos\sites\ong\dist133921302212771807 1
+>>>>>>> main
 86C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\sass\types\value\string.d.ts133887969624052859 0
 91C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\reporter-cli\src\emoji.js133894186368321957 0
 96C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\css-sel3.js133894186360646487 0
@@ -124,7 +132,11 @@
 77C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\get-port\index.d.ts133894186359175857 0
 91C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\postcss-value-parser\lib\index.js133894186335886719 0
 91C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\workers\lib\childState.js133894186345156578 0
+<<<<<<< HEAD
 70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.ea3e8094.js.map133921303104447449 0
+=======
+70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.ea3e8094.js.map133921302212695493 0
+>>>>>>> main
 98C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\decorators.js133894186362946684 0
 89C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\regions\AW.js133894186347102443 0
 130C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\lib\encode.js133894186336910063 0
@@ -789,7 +801,11 @@
 91C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\dist\lib\statuses.js133894186384046683 0
 73C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\tslib\README.md133894186339071846 0
 84C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\msgpackr\dist\index.js.map133894186344954687 0
+<<<<<<< HEAD
 69C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\history.e3ec2420.js133921303099356066 0
+=======
+69C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\history.e3ec2420.js133921291332682774 0
+>>>>>>> main
 91C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\story\protetor-bucal-simples.jpeg133917863491927144 0
 106C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\entities\lib\generated\decode-data-html.d.ts.map133894186343132538 0
 117C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.1133894186341835348 0
@@ -1315,7 +1331,11 @@
 93C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\test\fixtures\main-mjs133918576642098839 1
 109C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\posthtml\node_modules\entities\lib\encode-trie.d.ts133894186342824105 0
 109C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\css-container-queries.js133894186355624851 0
+<<<<<<< HEAD
 71C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\volunteer.21256c59.js133921303099597680 0
+=======
+71C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\volunteer.21256c59.js133921291332682774 0
+>>>>>>> main
 108C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\posthtml\node_modules\entities\lib\encode.d.ts.map133894186341525944 0
 75C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\chokidar\index.js133887969620129042 0
 102C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\posthtml\node_modules\entities\lib\encode.js133894186339263386 0
@@ -1532,7 +1552,11 @@
 81C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\parent-module\readme.md133894186336765980 0
 68C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\parcel\lib133918576981642330 1
 89C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\regions\VG.js133894186385973726 0
+<<<<<<< HEAD
 72C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\portal.81f60e5f.js.map133921303099455558 0
+=======
+72C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\portal.81f60e5f.js.map133921291331655871 0
+>>>>>>> main
 83C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\node-addon-api\LICENSE.md133887969620720348 0
 72C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\parcel\LICENSE133894186367450373 0
 93C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\runtime-js\src\helpers\node133918576681789180 1
@@ -2501,7 +2525,11 @@
 92C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\cosmiconfig\dist\cacheWrapper.d.ts133894186345678324 0
 80C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\_\_update133918576791953483 1
 96C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\cosmiconfig\dist\cacheWrapper.d.ts.map133894186341024413 0
+<<<<<<< HEAD
 57C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\main.js133921303099755174 0
+=======
+57C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\main.js133921302211123886 0
+>>>>>>> main
 99C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\cosmiconfig\dist\canUseDynamicImport.d.ts133894186345792724 0
 81C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@lezer\lr\dist\index.js133894186338536928 0
 89C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\regions\TN.js133894186385261732 0
@@ -3223,7 +3251,11 @@
 94C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\transformer-raw\package.json133894186352238646 0
 111C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\upgradeinsecurerequests.js133894186385577121 0
 115C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\url-scroll-to-text-fragment.js133894186385703980 0
+<<<<<<< HEAD
 70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.1caa2c4a.js.map133921303099332879 0
+=======
+70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.1caa2c4a.js.map133921291331655871 0
+>>>>>>> main
 98C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\use-strict.js133894186385734038 0
 104C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\user-select-none.js133894186385734038 0
 133C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\package.json133894186369934167 0
@@ -3244,7 +3276,11 @@
 104C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\wasm-multi-value.js133894186386445125 0
 108C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\wasm-mutable-globals.js133894186386464644 0
 122C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\test\fixtures\custom-format-infer-type\package.json133894186380900125 0
+<<<<<<< HEAD
 61C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\blocks133921303099788437 1
+=======
+61C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\blocks133921290024385848 1
+>>>>>>> main
 108C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\.bin\node-gyp-build-optional-packages-optional.ps1133894186410441803 0
 98C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\cjs\_async_to_generator.cjs133894186340282218 0
 112C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\caniuse-lite\data\features\wasm-nontrapping-fptoint.js133894186386464644 0
@@ -3308,7 +3344,11 @@
 111C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\src\_class_static_private_method_get.mjs133894186370996816 0
 79C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\braces\lib\compile.js133887969619559199 0
 100C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\_\_ts_add_disposable_resource133918576789400625 1
+<<<<<<< HEAD
 73C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\history.e3ec2420.js.map133921303099410123 0
+=======
+73C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\history.e3ec2420.js.map133921291332841578 0
+>>>>>>> main
 77C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\braces\lib\parse.js133887969619901189 0
 77C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\braces\lib\utils.js133887969620149141 0
 77C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\base-x\package.json133894186338590204 0
@@ -3583,7 +3623,11 @@
 98C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\esm\_array_like_to_array.js133894186352611075 0
 103C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\reporter-dev-server\src\NodeRunner.js133894186368107974 0
 98C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\esm\_array_without_holes.js133894186352753070 0
+<<<<<<< HEAD
 75C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\volunteer.21256c59.js.map133921303099623644 0
+=======
+75C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\volunteer.21256c59.js.map133921291332841578 0
+>>>>>>> main
 93C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\esm\_async_iterator.js133894186352999887 0
 97C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\esm\_async_to_generator.js133894186353064688 0
 90C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@swc\helpers\esm\_await_value.js133894186353170123 0
@@ -3808,7 +3852,11 @@
 102C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\workers\src\process\ProcessWorker.js133894186347951543 0
 149C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines\package.json133894186381771012 0
 100C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\workers\lib\core-worker.browser.js133894186345663414 0
+<<<<<<< HEAD
 66C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\css\main.css.map133921303102257088 0
+=======
+66C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\css\main.css.map133921291065150628 0
+>>>>>>> main
 105C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\test\fixtures\plugins\node_modules133918576643253696 1
 92C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\workers\lib\core-worker.js133894186345874174 0
 87C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\workers\lib\Handle.js133894186346663701 0
@@ -3888,7 +3936,11 @@
 83C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\utils\src\hash.js133894186369560803 0
 90C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\utils\src\http-server.js133894186369601394 0
 89C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\utils\src\import-map.js133894186369633581 0
+<<<<<<< HEAD
 71C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.e07bb7ad.css.map133921303104447449 0
+=======
+71C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.e07bb7ad.css.map133921291331655871 0
+>>>>>>> main
 92C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\utils\src\openInBrowser.js133894186371309925 0
 93C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\utils\src\parseCSSImport.js133894186371350086 0
 83C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\utils\src\path.js133894186371382108 0
@@ -4334,7 +4386,11 @@
 105C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\lib\requests\BundleGraphRequest.js133894186376103430 0
 100C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\lib\requests\ConfigRequest.js133894186376349215 0
 100C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\lib\requests\DevDepRequest.js133894186376624251 0
+<<<<<<< HEAD
 53C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\css133921303099623644 1
+=======
+53C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\css133921290024385848 1
+>>>>>>> main
 105C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\lib\requests\ParcelBuildRequest.js133894186378165751 0
 106C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\lib\requests\ParcelConfigRequest.js133894186378466351 0
 100C:\Users\rodri\OneDrive\Documentos\sites\ong\node_modules\@parcel\core\lib\requests\TargetRequest.js133894186379995808 0
@@ -4440,9 +4496,15 @@
 57C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens133918576605841246 1
 60C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\index.html133918593092349799 0
 86C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\protetor-bucal-simples.70100a9c.jpeg133921291327116792 0
+<<<<<<< HEAD
 61C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\portal.html133921303099788437 0
 54C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass133918576608999766 1
 64C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\volunteer.html133921303099832294 0
+=======
+61C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\portal.html133921301604660703 0
+54C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass133918576608999766 1
+64C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\volunteer.html133921290024457330 0
+>>>>>>> main
 60C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\utils133918576609313154 1
 67C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\_blocks.scss133918996781010483 0
 66C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\_utils.scss133895358561822312 0
@@ -4458,7 +4520,11 @@
 85C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\blocks\_send-us-a-message.scss133908415704658805 0
 73C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\blocks\_story.scss133917910350043192 0
 73C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\blocks\_table.scss133917834603675454 0
+<<<<<<< HEAD
 77C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\blocks\_volunteer.scss133921303099832294 0
+=======
+77C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\sass\blocks\_volunteer.scss133921291063091365 0
+>>>>>>> main
 69C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\bg-main.jpg133907158184463773 0
 68C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\ct-400.jpg133886728675277624 0
 74C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\ferrari team.jpg133886728675277624 0
@@ -4484,13 +4550,21 @@
 62C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\history.html133921291326949986 0
 97C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\icons-social-media\wa-whatsapp-icon.svg133914885165448288 0
 100C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\icons-social-media\whatsapp-white-icon.svg133908415704476424 0
+<<<<<<< HEAD
 67C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.e07bb7ad.css133921303103636209 0
+=======
+67C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.e07bb7ad.css133921291327662349 0
+>>>>>>> main
 77C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\icons\icon-menu.svg133895358561604464 0
 80C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\icons\vector-white.svg133816793140942362 0
 81C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\fotos-projeto\foto4.jpg133907158184732909 0
 131C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\imagens\fotos-projeto\Imagem do WhatsApp de 2025-05-02 à(s) 23.31.02_fd159401.jpg133907158184541588 0
 73C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\fontes\android-site.txt133886728675277624 0
+<<<<<<< HEAD
 62C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\css\main.css133921303102371360 0
+=======
+62C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\css\main.css133921291065170717 0
+>>>>>>> main
 77C:\Users\rodri\OneDrive\Documentos\sites\ong\docs\css\blocks\about-us.css.map133912935746651712 0
 63C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\about-us.html133912718330467664 0
 88C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\atadura-pugna-cinza-preta.2bc45f39.png133921291327948950 0
@@ -4504,8 +4578,13 @@
 72C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\bandagem.71240472.webp133917834555357973 0
 70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\bg-main.b18e8439.jpg133921291328455849 0
 88C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\calçao-muaythay-rosa-flor.c0397463.png133921291330427136 0
+<<<<<<< HEAD
 66C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.1caa2c4a.js133921303099184082 0
 66C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.ea3e8094.js133921303103636209 0
+=======
+66C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.1caa2c4a.js133921291330726071 0
+66C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\docs.ea3e8094.js133921302212614989 0
+>>>>>>> main
 71C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\facebook.27045db5.svg133921291326949986 0
 70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\favicon.20c64baa.ico133921291327072903 0
 68C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\foto1.86a4e402.jpg133921291329772685 0
@@ -4513,8 +4592,13 @@
 68C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\foto3.ac1f05a8.jpg133921291329312837 0
 68C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\foto4.3d9bf2b3.jpg133921291329373151 0
 73C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\galpao-500.f39a1fc7.jpg133921291328938775 0
+<<<<<<< HEAD
 66C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\give.92a766e6.js133921303099184082 0
 70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\give.92a766e6.js.map133921303099324673 0
+=======
+66C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\give.92a766e6.js133921291330726071 0
+70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\give.92a766e6.js.map133921291331655871 0
+>>>>>>> main
 72C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\icon-menu.59d4c307.svg133921291326949986 0
 80C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\ig-instagram-icon.8b258f78.svg133921291327136893 0
 60C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\index.html133921291330762297 0
@@ -4524,6 +4608,7 @@
 78C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\luva-pugna-azul.f83207c0.png133921291330284090 0
 94C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\luva-pulser-azul-vermelha-figth.aee71505.png133921291329017627 0
 68C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\luva.98de9b99.webp133917834555357973 0
+<<<<<<< HEAD
 68C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\portal.81f60e5f.js133921303099440711 0
 61C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\portal.html133921303103636209 0
 86C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\protetor-bucal-simples.c78b87cb.webp133917860917890574 0
@@ -4533,3 +4618,14 @@
 70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\twitter.774ae966.svg133908285661261126 0
 75C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\vector-white.3b4b1359.svg133921291326949986 0
 64C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\volunteer.html133921303103636209 0
+=======
+68C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\portal.81f60e5f.js133921291330783536 0
+61C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\portal.html133921301606706843 0
+86C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\protetor-bucal-simples.c78b87cb.webp133917860917890574 0
+67C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\story.b7767ef8.js133921291330726071 0
+71C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\story.b7767ef8.js.map133921291331655871 0
+75C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\twitter-blue.631b05d4.svg133908285660859240 0
+70C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\twitter.774ae966.svg133908285661261126 0
+75C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\vector-white.3b4b1359.svg133921291326949986 0
+64C:\Users\rodri\OneDrive\Documentos\sites\ong\dist\volunteer.html133921291328623210 0
+>>>>>>> main
