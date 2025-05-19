@@ -1,8 +1,48 @@
 @use "../utils" as utils;
-.volunteer {
-  &__text {
-    width: 200px;
-    text-align: center;
-    margin: auto;
+.volunteers {
+  &__section {
+    margin-top: 36px;
+    max-width: 1146px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text-content {
+    @include utils.on-tablet {
+      max-width: 235px;
+      padding-right: 127;
+    }
+  }
+
+  &__title {
+    line-height: 150%;
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include utils.on-tablet {
+      gap: 30px;
+    }
+
+    @include utils.on-small-desktop {
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+
+  &__card {
+    width: 320px;
+
+    @include utils.on-tablet {
+      width: 558px;
+    }
+
+    @include utils.on-desktop {
+      width: 420px;
+    }
   }
 }

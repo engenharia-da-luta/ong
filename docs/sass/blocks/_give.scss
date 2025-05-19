@@ -40,6 +40,11 @@
     @include utils.hover(transform, scale(1.2));
   }
 
+  &__hours {
+    padding: 10px;
+    border-radius: 20px;
+  }
+
   &__story {
     margin-top: 20px;
     display: flex;

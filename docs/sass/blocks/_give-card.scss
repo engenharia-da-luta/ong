@@ -35,13 +35,17 @@
     font-size: 12px;
     line-height: 100%;
     border-radius: 3px;
-    max-width: 100px;
+    max-width: 110px;
 
     &--transform {
       font-size: 36px;
       font-family: sans-serif;
       font-weight: 600;
     }
+  }
+
+  &__multiply-transform {
+    transform: translate(-5px, 12px);
   }
 
   &__description {
