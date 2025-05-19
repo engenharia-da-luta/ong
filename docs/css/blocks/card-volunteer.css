@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@font-face {
+  font-family: "boxe";
+  src: url(../fontes/LaOriental-Bold.otf);
+}
+.card-volunteer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-block: 32px;
+}
+.card-volunteer__top-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-volunteer__photo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 196px;
+  width: 196px;
+}
+@media (min-width: 672px) {
+  .card-volunteer__photo-content {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (min-width: 1024px) {
+  .card-volunteer__photo-content {
+    height: 196px;
+    width: 196px;
+  }
+}
+@media (min-width: 1280px) {
+  .card-volunteer__photo-content {
+    height: 250px;
+    width: 250px;
+  }
+}
+.card-volunteer__photo {
+  transition: 0.3s;
+  z-index: 2;
+  border-radius: 50%;
+  width: 56%;
+  height: 56%;
+}
+.card-volunteer:hover .card-volunteer__photo {
+  transition: 0.3s;
+  transform: scale(1.3);
+}
+.card-volunteer__rectangle {
+  position: absolute;
+  width: 55.6%;
+  height: 22.4%;
+  background-color: #2478a2;
+}
+.card-volunteer__rectangle--top {
+  transition: all 0.3s;
+  transform-origin: left bottom;
+  transform: rotate(-60deg);
+  top: 40%;
+  left: 26%;
+}
+.card-volunteer__rectangle--bottom {
+  transition: all 0.3s;
+  transform-origin: right top;
+  transform: rotate(-60deg);
+  bottom: 40%;
+  right: 26%;
+}
+.card-volunteer:hover .card-volunteer__rectangle {
+  transition: all 0.3s;
+  transform: scale(1.4);
+  transform: rotate(-90deg);
+}
+.card-volunteer__text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  max-width: 250px;
+}
+@media (min-width: 672px) {
+  .card-volunteer__text-content {
+    max-width: 362px;
+    gap: 16px;
+  }
+}
+.card-volunteer__text {
+  margin: 0;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+@media (min-width: 672px) {
+  .card-volunteer__text {
+    font-size: 16px;
+  }
+}
+.card-volunteer__identification {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.card-volunteer__name {
+  margin: 0;
+}
+.card-volunteer__ocupation {
+  text-align: center;
+  margin: 4px 0 0;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 3px;
+  color: #c0cdd7;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=card-volunteer.css.map */
