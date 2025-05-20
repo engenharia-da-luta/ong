@@ -1106,9 +1106,11 @@
   text-transform: uppercase;
 }
 
+.volunteers {
+  max-width: 1500px;
+}
 .volunteers__section {
   margin-top: 36px;
-  max-width: 1146px;
   margin-inline: auto;
   display: flex;
   justify-content: center;
@@ -1125,6 +1127,7 @@
 .volunteers__cards {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 24px;
 }
 @media (min-width: 672px) {
@@ -1135,6 +1138,7 @@
 @media (min-width: 1024px) {
   .volunteers__cards {
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
   }
 }
@@ -1143,12 +1147,12 @@
 }
 @media (min-width: 672px) {
   .volunteers__card {
-    width: 558px;
+    width: 430px;
   }
 }
 @media (min-width: 1280px) {
   .volunteers__card {
-    width: 420px;
+    width: 430px;
   }
 }
 

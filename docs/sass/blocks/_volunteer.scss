@@ -1,8 +1,8 @@
 @use "../utils" as utils;
 .volunteers {
+  max-width: 1500px;
   &__section {
     margin-top: 36px;
-    max-width: 1146px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -22,6 +22,7 @@
   &__cards {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 24px;
 
     @include utils.on-tablet {
@@ -30,6 +31,8 @@
 
     @include utils.on-small-desktop {
       flex-direction: row;
+      flex-wrap: wrap;
+
       gap: 20px;
     }
   }
@@ -38,11 +41,11 @@
     width: 320px;
 
     @include utils.on-tablet {
-      width: 558px;
+      width: 430px;
     }
 
     @include utils.on-desktop {
-      width: 420px;
+      width: 430px;
     }
   }
 }
