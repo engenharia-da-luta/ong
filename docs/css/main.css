@@ -991,6 +991,7 @@
   background-color: #fff;
   border-radius: 10px;
   padding-block: 32px;
+  border: #2478a2 solid 3px;
 }
 .card-volunteer__top-bar {
   display: flex;
