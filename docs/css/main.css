@@ -455,7 +455,11 @@
   text-decoration: none;
   color: #f2f4f5;
   margin: 0;
-  padding: 0;
+  padding: 5px;
+  padding-top: 25px;
+}
+.home__link:hover .home__icon-social {
+  transform: scale(1.2);
 }
 .home__text {
   width: 320px;
@@ -486,6 +490,11 @@
 }
 .home__button {
   margin: 0;
+  margin-top: 30px;
+  display: block;
+}
+.home__icon-social {
+  padding-left: 10px;
 }
 .home__carrossel-contain {
   height: 300px;

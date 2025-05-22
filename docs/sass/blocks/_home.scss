@@ -51,7 +51,12 @@
     text-decoration: none;
     color: utils.$cor0;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    padding-top: 25px;
+  }
+
+  &__link:hover &__icon-social {
+    transform: scale(1.2);
   }
 
   &__text {
@@ -86,6 +91,12 @@
 
   &__button {
     margin: 0;
+    margin-top: 30px;
+    display: block;
+  }
+
+  &__icon-social {
+    padding-left: 10px;
   }
 
   &__carrossel-contain {
