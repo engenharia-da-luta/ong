@@ -97,7 +97,7 @@ if (cashNegativeTotalElement) {
   cashNegativeTotalElement.textContent = cashSumNegativeFormatado;
 }
 
-const cashTotalManual = "R$239,39";
+const cashTotalManual = "R$329,39";
 
 cashTotalElements.forEach((element) => {
   element.textContent = cashTotalManual;
